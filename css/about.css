@@ -19,15 +19,13 @@
 .row {
   width: 85%;
   margin: 0 auto;
-  padding: 2%
+  padding: 2%;
 }
 
-.circle-image {
-  border-radius:50%;
-}
+
 
 body {
-  background-color: #E4F1FE
+  background-color: #E4F1FE;
 }
 
 .rowteam {
@@ -49,4 +47,36 @@ h3 {
 
 .container-fluid {
   padding: 0;
+}
+
+ p {
+   font-size: 14px;
+ }
+
+.roweven {
+  background-color: #D2D7D3;
+  display: inline-block;
+  width: 85%;
+  margin-left: 7.5%;
+  padding: 2%;
+
+}
+
+h2 {
+  font-size: 19px
+}
+
+.roweven > img {
+  width: 30%;
+  float: left;
+}
+
+.roweven > p, h4 {
+  width: 60%;
+  float: left;
+  margin-left: 3%;
+}
+
+.roweven > h4 {
+  margin-top: 7%;
 }

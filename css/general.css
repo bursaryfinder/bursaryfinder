@@ -6,7 +6,8 @@
   color: #22A7F0;
 }
 .bursaryLink:hover {
-  color: #9A12B3;
+  color: #22A7F0;
 }
-
-/*22A7F0*/
+body{
+  background-color:#E4F1FE;
+}
