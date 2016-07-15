@@ -1,0 +1,12 @@
+.listItem {
+  padding: 10px;
+  border-bottom: 5px #22A7F0 solid
+}
+.bursaryLink {
+  color: #22A7F0;
+}
+.bursaryLink:hover {
+  color: #9A12B3;
+}
+
+/*22A7F0*/

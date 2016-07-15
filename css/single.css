@@ -1,0 +1,36 @@
+img {
+  width: 30%;
+}
+
+h4, p, li{
+  text-align: left;
+
+
+}
+
+h4 {
+  margin-top: 2%;
+}
+
+p {
+  text-align: justify;
+}
+
+#content {
+  width: 100%;
+  margin: 0;
+  padding: 1% 4% 1% 4%;
+  border-style:solid;
+  border-top-width: 10px;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  border-color:#D2D7D3;
+}
+body{
+  background-color:#E4F1FE;
+
+}
+
+.navbar {
+  margin: 0;
+}

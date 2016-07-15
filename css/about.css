@@ -1,0 +1,52 @@
+.rowteam > div {
+  width: 20%;
+  float:left;
+  margin-right: 3%;
+  margin-left: 2%;
+}
+
+.rowteam > div > img {
+  width: 100%;
+}
+
+.rowtop {
+  display: inline-block;
+  margin: 0  auto;
+  text-align: center;
+  width: 100%;
+}
+
+.row {
+  width: 85%;
+  margin: 0 auto;
+  padding: 2%
+}
+
+.circle-image {
+  border-radius:50%;
+}
+
+body {
+  background-color: #E4F1FE
+}
+
+.rowteam {
+  position:relative;
+  float:left;
+  width: 100%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  background-color: #A2DED0;
+  padding: 3%;
+}
+
+h3 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.container-fluid {
+  padding: 0;
+}

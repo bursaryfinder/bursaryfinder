@@ -1,0 +1,46 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+body {
+  background-color: #E4F1FE;
+  font-family: arial;
+}
+.mojojo {
+  background-image: url("../scholarship-life.jpg");
+  background-repeat: repeat-x;
+  color: white;
+}
+
+#bubbles {
+  border: 3px #E4F1FE solid;
+  text-align: center;
+  font-family: arial;
+  color:black;
+}
+
+#blossom {
+  border: 3px #E4F1FE solid;
+  text-align: center;
+  font-family: arial;
+  color:black;
+}
+
+.col-md-6 {
+  width:100%;
+  float: none;
+}
+
+#buttercup {
+  border: 3px #E4F1FE solid;
+  text-align: center;
+  font-family: arial;
+  color:black;
+  }
+#bottle {
+  font-family: arial black;
+  color:black;
+}
+.image {
+  width:4%;
+}
