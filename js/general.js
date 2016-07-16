@@ -24,8 +24,10 @@ function renderBursary(bursary, index) {
   text += "<div class='col-md-4'>";
   text += "<h4>Faculties</h4>";
   text += "<ul>";
+  if(bursary.Faculties){
   for (var i = 0; i < bursary.Faculties.length; i++) {
     text += "<li>"+bursary.Faculties[i].name+"</li>";
+  }
   }
   text += "</ul>";
   text += "</div>";
@@ -33,8 +35,10 @@ function renderBursary(bursary, index) {
   text += "<div class='col-md-4'>";
   text += "<h4>Levels</h4>";
   text += "<ul>";
+  if(bursary.Levels){
   for (var i = 0; i < bursary.Levels.length; i++) {
     text += "<li>"+bursary.Levels[i].Level+"</li>";
+  }
   }
   text += "</ul>";
   text += "</div>";
@@ -42,8 +46,10 @@ function renderBursary(bursary, index) {
   text += "<div class='col-md-4'>";
   text += "<h4>Includes</h4>";
   text += "<ul>";
+  if(bursary.Includes){
   for (var i = 0; i < bursary.Includes.length; i++) {
   text += "<li>"+bursary.Includes[i].name+"</li>";
+  }
   }
   text += "</ul>";
   text += "</div>";
